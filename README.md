@@ -19,7 +19,7 @@ metadata:
   name: config-management
 spec:
   git:
-    syncRepo: git@github.com:GoogleCloudPlatform/csp-config-management.git
+    syncRepo: git@github.com:jeremysolarz/anthos-config-management.git
     syncBranch: "1.0.0"
     syncWait: 5
     secretType: ssh
