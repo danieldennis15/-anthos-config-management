@@ -3,7 +3,7 @@ kind: StorageBucket
 metadata:
   labels:
     label-one: "value-one"
-  name: storagebucket-sample
+  name: storagebucket-sample-jsolarz
 spec:
   lifecycleRule:
     - action:
