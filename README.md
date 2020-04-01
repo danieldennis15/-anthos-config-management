@@ -7,9 +7,9 @@ This repository contains example repos for [Anthos Config Management][1].
 To use these examples, install the Anthos Config Management operator on your
 Kubernetes cluster and create a custom resource that points at one of the
 included examples by setting the `policyDir` field to the directory of the
-desired example (e.g. `foo-corp`).
+desired example (e.g. `hipstershop`).
 
-This example command will configure your cluster to use the `foo-corp` example
+This example command will configure your cluster to use the `hipstershop` example
 contained in this repository:
 
 ```yaml
@@ -23,7 +23,7 @@ spec:
     syncBranch: "1.0.0"
     syncWait: 5
     secretType: ssh
-    policyDir: foo-corp
+    policyDir: hipstershop
 ```
 
 For a more complete experience, you can fork this repository, which will allow
